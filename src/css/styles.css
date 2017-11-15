@@ -1,0 +1,555 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #333333;
+}
+
+.home-page {
+  background-color: #FFA800;
+}
+
+img {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nm-left {
+  margin-left: 0 !important;
+}
+
+.nm-right {
+  margin-right: 0 !important;
+}
+
+.nm-top {
+  margin-top: 0 !important;
+}
+
+.nm-bottom {
+  margin-bottom: 0 !important;
+}
+
+.np-left {
+  padding-left: 0 !important;
+}
+
+.np-right {
+  padding-right: 0 !important;
+}
+
+.np-top {
+  padding-top: 0 !important;
+}
+
+.np-bottom {
+  padding-bottom: 0 !important;
+}
+
+nav {
+  background-image: url(../img/floor.jpg);
+  background-size: cover;
+  height: 260px;
+  border-bottom: 4px solid #333333;
+  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  position: relative;
+}
+
+nav h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+}
+
+nav button, .home-header button {
+  float: right;
+  width: 156px;
+  background-color: white;
+  padding: 10px 0;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFA800;
+  border: none;
+}
+
+nav button:hover, .home-header button:hover {
+  background-color: #5BBFF5;
+  color: white;
+}
+
+.nav-top {
+  margin-top: 30px;
+}
+
+.nav-logo img {
+  width: 136px;
+  float: left;
+  margin-right: 36px;
+}
+
+.nav-logo p {
+  float: left;
+  padding-top: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px 15px 0 0;
+}
+
+.nav-menu li {
+  text-align: center;
+  padding: 8px 0;
+  width: 90px;
+  border: 1px solid #333333;
+  margin: 0 4px;
+  color: #333333;
+}
+
+.nav-menu li:hover {
+  background-color: #333333;
+  color: #fdc664;
+}
+
+.nav-title {
+  margin-top: 82px;
+}
+
+.scoreboard {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid #E6E6E6;
+}
+
+.score-mug {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 6px;
+  border: 1px solid #333333;
+}
+
+.team-score {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.team-score-name {
+  display: flex;
+  align-items: center;
+}
+
+.team-score-name p {
+  font-weight: 800;
+}
+
+.score-total p {
+  font-size: 23px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  text-align: right;
+}
+
+.score-breakdown {
+  padding-top: 3%;
+}
+
+.matchup-pie {
+  width: 340px;
+  margin: 0 auto;
+}
+
+.matchup-pie img {
+  width: 100%;
+}
+
+.matchup-team {
+  font-weight: 900;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center !important;
+}
+
+.matchup-roster {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 8px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.matchup-roster th, td {
+  border-bottom: 2px solid #E6E6E6;
+  padding: 14px 0;
+}
+
+/*.matchup-roster td:nth-child(6) {
+  color: red;
+}*/
+
+.matchup-roster tr:hover {
+  background-color: #f7f7f7;
+}
+
+.left {
+  text-align: left;
+}
+
+.matchup-roster td:nth-child(1), td:nth-child(2), td:nth-child(3), .players-list td:nth-child(4) {
+  text-align: left;
+}
+
+.matchup-roster th:nth-child(1), th:nth-child(2), th:nth-child(3), .players-list th:nth-child(4) {
+  text-align: left;
+}
+
+.players-list td:nth-child(2) {
+  color: #2085FF;
+  width: 20%;
+}
+
+.matchup-roster td:last-child {
+  font-weight: 800;
+}
+
+.score-breakdown button {
+  width: 100%;
+  padding: 10px 0;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+  background-color: white;
+  border: 4px solid #E6E6E6;
+}
+
+.show-bench {
+  padding: 0 22px;
+  margin-top: 30px;
+}
+
+.show-bench button:hover {
+  background-color: #5BBFF5;
+  color: white;
+  border:4px solid #5bbff5;
+}
+
+.other-scores {
+  padding-top: 3%;
+}
+
+.more-scores {
+  display: flex;
+  align-items: center;
+}
+
+.winning-team {
+  padding: 6px 20px;
+  background-color: #FFBF26;
+  width: 100%;
+}
+
+.losing-team {
+  padding: 6px 20px;
+  background-color: #E6E6E6;
+  width: 82%;
+}
+
+.game {
+    margin-bottom: 2%;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 2%;
+}
+
+.game .row:nth-child(2) {
+  margin-top: 4px;
+}
+
+#game-5 {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.left-button {
+  float: left;
+}
+
+.place-holder {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5BBFF5;
+}
+
+.league-title-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.league-title-button button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #e6e6e6;
+  border: 0;
+  float: left;
+  font-size: 15px;
+}
+
+.league-title-button button:hover {
+  background-color: #d4d4d4;
+}
+
+.players-button {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.league-title-subject p {
+  font-size: 18px;
+  font-family: 'roboto slab', sans-serif;
+  font-weight: 800;
+}
+
+.league-title-bordered::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #e6e6e6;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+
+.no-button {
+  border-bottom: 4px solid #e6e6e6;
+  margin-bottom: 20px;
+  border-right: 4px solid #e6e6e6;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding-bottom: 15px;
+  text-align: left;
+  display: flex;
+}
+
+.align-left {
+  justify-content: flex-start !important;
+  margin-left: 0;
+}
+
+.nl-home {
+  display: flex;
+  justify-content: center;
+}
+
+.nl-home img {
+  float: none;
+  margin: 0;
+  width: 190px;
+}
+
+.home-top {
+  background-image: url(../img/floor-top.png);
+  background-size: cover;
+  height: 100%;
+  display: block;
+  position: fixed;
+  width: 100%;
+}
+
+.home-header {
+  text-align: center;
+  font-family: 'roboto slab', helvetica, sans-serif;
+  padding: 10% 0;
+}
+
+.home-header h1 {
+  font-size: 5rem;
+  margin: 0 0 10px 0;
+}
+
+.home-header h3 {
+  font-weight: 300;
+  font-size: 2.2rem;
+  width: 50%;
+  margin: 0 auto 30px auto;  
+}
+
+.home-header button {
+  width: auto;
+  float: none;
+  padding: 10px 25px;
+}
+
+.home-circle-top {
+  display: block;
+  position: relative;
+  top: 70vh;
+  width: 100%;
+  float: left;
+}
+
+.hoops-gif {
+  width: 100%;
+}
+
+.hoops-gif-container {
+  width: 240px;
+  margin: 0 auto;
+}
+
+.center-content {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: -52px;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 2.5%;
+}
+
+.features-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgba(183, 181, 181, 0.5);
+  width: 30%;
+  min-height: 512px;
+}
+
+.features-card img {
+  width: 120px;
+}
+
+.features-card p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.features-card h2 {
+  text-align: center;
+  font-family: 'roboto slab', helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 6% 0;
+}
+
+.devices img {
+  width: 50%;
+  margin: 10% auto 0 auto;
+  display: block;
+}
+
+.bottom-header {
+  position: relative;
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+.spacer {
+  width: 100%;
+  height: 70vh;
+  display: block;
+  position: relative;
+}
+
+#hide-header {
+  display: block;
+}
+
+#hide-header.active {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  display: block;
+  position: relative;
+  height: auto;
+  float: left;
+  bottom: 0;
+}
+.bottom-circle {
+  display: block;
+  position: relative;
+  color: #B3B3B3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 0;
+  background-image: url(../img/footer-circle.png);
+  background-position: center;
+  background-size: cover;
+  background-position-y: 0;
+}
+
+.bottom-circle img {
+  width: 150px;
+  margin: 0 0 20px 0;
+}
+
+.bottom-circle ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.bottom-circle ul li {
+  margin: 0 18px;
+}
+
+.bottom-circle a {
+  color: #b3b3b3;
+}
+
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.bottom-circle .fa {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 20px;
+}

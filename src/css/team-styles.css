@@ -1,0 +1,175 @@
+.nav-title {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+nav h2 {
+  display: block;
+}
+
+.score-mug {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  /* border: 1px solid #ffffff; */
+  margin-bottom: 4px;
+}
+
+.league-title-button {
+  width: 50%;
+  float: left;
+  font-family: 'roboto slab', sans-serif;
+}
+
+.league-title-button button p {
+  font-size: 16px;
+}
+
+.league-title-subject {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 400;
+  background-color: #f2f2f2;
+  padding: 10px 0px;
+}
+
+.league-title-subject p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.right-subject {
+  justify-content: flex-start;
+}
+
+.matchup-score {
+    margin-top: 3%;
+}
+
+.score-matchup {
+  width: 10%;
+  background-color: #ffa800;
+  margin: 0 auto 1px auto;
+}
+
+.score-matchup p {
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  padding: 3px 0;
+}
+
+.score-button {
+  width: 30%;
+}
+
+.score-team-name {
+  width: 60%;
+  padding: 10px 14px;
+}
+
+.score {
+  background-color: #FFBF26;
+  padding: 10px 0px;
+  text-align: center;
+  justify-content: center;
+  width: 10%;
+}
+
+.score p {
+  font-weight: 800;
+}
+
+#score-line {
+  border-right: 1px solid white;
+}
+
+.start-bench {
+  writing-mode:tb-rl;
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform: rotate(180deg);
+  white-space:nowrap;
+  display:block;
+  bottom:0;
+  width: 5%;
+  height: 435px;
+  float: left;
+}
+
+.start-bench p {
+  height: 200px;
+  margin: auto 0;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #bbbcbd;
+}
+
+.team-roster {
+  width: 95%;
+}
+
+.matchup-roster th, td {
+  padding: 14px 10px;
+}
+
+.matchup-roster th:first-child, td:first-child {
+  padding-left: 0;
+}
+
+.matchup-roster th:last-child, td:last-child {
+  padding-right: 0;
+}
+
+.matchup-roster th:nth-child(4), th:nth-child(7), td:nth-child(4), td:nth-child(7) {
+  text-align: left;
+}
+
+.matchup-roster th:nth-child(6), td:nth-child(6) {
+  padding-right: 20px;
+  border-right: 2px solid #e6e6e6;
+}
+
+.matchup-roster th:nth-child(7), td:nth-child(7) {
+  padding-left: 20px;
+}
+
+.bench {
+  margin-top: 30px;
+}
+
+.bench .matchup-roster th:nth-child(6) {
+  border-right: 2px solid rgba(0, 0, 0, 0);
+}
+
+.pine {
+  height: 528px;
+}
+
+.matchup-roster td:nth-child(2) {
+  color: #2085FF;
+}
+
+.home-header button {
+  background-color: white;
+  padding: 10px 0;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFA800;
+  border: none;
+}

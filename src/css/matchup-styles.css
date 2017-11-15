@@ -1,0 +1,90 @@
+.background-top {
+  background-color: #F8F8FA;
+  height: 50vh;
+  border-top: 2px solid #e6e6e6;
+}
+
+.background-bottom {
+  background-color: #e6e6e6;
+  height: 20vh;
+}
+
+.fap {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.fap-container {
+  position: absolute;
+  float: left;
+}
+
+.top-fap-five {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h5 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  float: left;
+  width: 100%;
+  padding: 5% 0 30px 0;
+}
+
+.top-fap {
+  width: 18%;
+  background-color: white;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.fap-pts {
+  text-align: center;
+  font-family: 'Roboto Slab';
+  font-weight: 900;
+  font-size: 44px;
+  background-color: #FFBF26;
+  padding: 12px 0;
+  color: white;
+}
+
+.fap-player {
+  text-align: center;
+  color: white;
+  background-color: #333333;
+  padding: 12px 0;
+  letter-spacing: .5px;
+}
+
+.fap-chart {
+  padding: 22px 28px;
+}
+
+.fap-stats {
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.fap-stats td {
+  padding: 6px 0;
+}
+
+.fap-stats td:last-child {
+  text-align: right;
+}
+
+.fap-team {
+  font-family: 'Roboto Slab', sans-serif;
+  text-align: center;
+  font-weight: 900;
+  color: #333333;
+  background-color: #F2F2F2;
+  padding: 10px 0;
+  font-size: 15px;
+  letter-spacing: .5px;
+}

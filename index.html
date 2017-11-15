@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Joe | Fantasy Hoops</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/6ded195efe.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  </head>
+  <body class="home-page">
+<!--     <div class="place-holder"><a href="matchup/index.html"><img src="img/joe.png"></a></div>
+ -->
+    <section class="home-top">
+      <div class="container" id="hide-header">
+        <!-- NAV -->
+        <div class="row nav-top ">
+          <div class="col-sm-4 ">
+            <ul class="row nav-menu align-left">
+              <a href="league/index.html"><li class="col-sm-3 nm-right">Sign In</li></a>
+            </ul>
+          </div>
+          <div class="col-sm-4 nav-logo nl-home"><a href="index.html"><img src="img/joe-nav.png"></a></div>
+          <div class="col-sm-4 ">
+            <ul class="row nav-menu">
+              <a href="league/index.html"><li class="col-sm-3 nm-right">Sign Up</li></a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 home-header">
+          <h1>The Joe is anything but average.</h1>
+          <h3>Get started today with a fully customizable fantasy league for college basketball fanatics.</h3>
+          <a href="team/index.html"><button>Play for Free!</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-circle-top">
+      <div class="circle-top">
+        <img src="img/circle-top.png">
+        <img src="img/circle-bottom.png">
+      </div>
+      <div class="center-content">
+        <div class="container">
+          <div class="hoops-gif">
+            <div class="hoops-gif-container">
+              <img src="img/buckets-blue.gif">
+            </div>
+          </div>
+
+          <div class="row features">
+            <div class="col-md-4 features-card">
+              <img src="img/ref.png">
+              <h2>Set<br>your rules</h2>
+              <p>The Joe’s fully customizable settings allow you to create your FANTASY fantasy college basketball league.</p>
+            </div>
+            <div class="col-md-4 features-card">
+              <img src="img/player.png">
+              <h2>Choose<br>your players</h2>
+              <p>Build a roster with current players from power-conference schools — Big Ten, ACC, Big 12, SEC, Pac 12, Big East and American.</p>
+            </div>
+            <div class="col-md-4 features-card">
+              <img src="img/jerseys.png">
+              <h2>Pick<br>your lineup</h2>
+              <p>The Joe’s easy drag-and-drop feature makes setting your starting lineup as simple as sinking a wide-open layup.</p>
+            </div>
+          </div>
+          <div class="row features">
+            <div class="col-md-4 features-card">
+              <img src="img/bucket.png">
+              <h2>Make<br>your call</h2>
+              <p>Can’t figure out who to start? Don’t sweat it. The Joe’s assistant coach allows you to analyze key statistics for up to three players.</p>
+            </div>
+            <div class="col-md-4 features-card">
+              <img src="img/bracket.png">
+              <h2>Follow<br>your matchup</h2>
+              <p>See live results with statistical comparisons as the good guys take on the bad boys on The Joe’s matchup page.</p>
+            </div>
+            <div class="col-md-4 features-card">
+              <img src="img/shoe.png">
+              <h2>Use<br>your device</h2>
+              <p>The Joe knows mobile. Forget about downloading another app with The Joe’s responsive interface optimized for your phone browser.</p>
+            </div>
+          </div>
+          <div class="row devices">
+            <img src="img/devices.png">
+          </div>
+
+        </div>  
+      </div>
+    </section>
+    <section class="bottom-header">
+        <div class="spacer"></div>
+        <div class="col-sm-12 home-header">
+          <h1>The ball is in your court.</h1>
+          <h3>If you’re a college basketball fan and a fantasy sports nut, The Joe wants you. Start playing today!</h3>
+          <a href="team/index.html"><button>Play for Free!</button></a>
+        </div>
+    </section>
+
+    <footer>
+      <div class="bottom-circle">
+        <div>
+          <img src="img/joe.png">
+        </div>
+        <ul>
+          <a href="#"><li>Contact Us</li></a> |
+          <a href="#"><li>About Us</li></a> |
+          <a href="#"><li>Terms of Use</li></a> |
+          <a href="#"><li>Privacy Policy</li></a>
+        </ul>
+        <div class="footer-social"><i class="fa fa-twitter" aria-hidden="true"></i><i class="fa fa-facebook" aria-hidden="true"></i></div>
+        <p>© 2017. The Joe ­ All Rights Reserved.</p>
+      </div>
+
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">    
+    </script>
+
+    <script>
+      //THIS ALSO WORKS
+
+      // $(window).bind('scroll', function() {
+      //      if ($(window).scrollTop() > 100) {
+      //          $('#hide-header').hide();
+      //      }
+      //      else {
+      //          $('#hide-header').show();
+      //      }
+      // });
+
+     
+      $window = $(window);
+      $(window).scroll(function(){
+
+      if($window.scrollTop() > 1000)
+          $("#hide-header").addClass('active');
+      else    
+          $("#hide-header").removeClass('active');
+      });
+
+    </script>
+  </body>
+</html>

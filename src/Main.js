@@ -14,8 +14,8 @@ class Main extends Component {
           <Route exact path='/' component={Home}/>
           <Route path='/team' component={Team}/>
           <Route path='/players' component={Players}/>
-          <Route path='/matchup' component={Players}/>
-          <Route path='/league' component={Players}/>
+          <Route path='/matchup' component={Matchup}/>
+          <Route path='/league' component={League}/>
         </Switch>
       </main>
     );

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import nav from './img/joe-nav.png';
-import wes from './img/matchup/wes.jpg';
 import './css/team-styles.css';
 
 class Team extends Component {
@@ -11,12 +9,12 @@ class Team extends Component {
         <nav>
           <div className="container">
             <div className="row nav-top">
-              <div className="col-sm-6 nav-logo"><Link to='/'><img src={nav}/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true"></i></p></div>
+              <div className="col-sm-6 nav-logo"><Link to='/'><img src="img/joe-nav.png"/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true"></i></p></div>
               <div className="col-sm-6 ">
                 <ul className="row nav-menu">
                   <Link to="/players"><li className="col-sm-3">Players</li></Link>
                   <Link to="/matchup"><li className="col-sm-3">Matchup</li></Link>
-                  <li className="col-sm-3">My Team</li>
+                  <li className="col-sm-3 active">My Team</li>
                   <Link to="/league"><li className="col-sm-3 nm-right">League</li></Link>
                 </ul>
               </div>
@@ -24,7 +22,7 @@ class Team extends Component {
 
             <div className="row nav-title">
               <div className="col-sm-4"></div>
-              <div className="col-sm-4"><img src={wes} className="score-mug"/><h2>Mantooth Saints</h2></div>
+              <div className="col-sm-4"><img src="img/matchup/wes.jpg" className="score-mug"/><h2>Mantooth Saints</h2></div>
               <div className="col-sm-4">
               {/*<button>Week 13<i className="fa fa-angle-down" aria-hidden="true" style="margin-left: 20px;"></i></button>*/}
               </div>

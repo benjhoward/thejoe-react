@@ -1,4 +1,4 @@
-Welcome to THE JOE: a fully customizable fantasy league for college basketball fanatics.
+## Welcome to THE JOE: a fully customizable fantasy league for college basketball fanatics.
 
 Once you’ve cloned this project from GitHub, run npm install. To run the app, run nom start.
 

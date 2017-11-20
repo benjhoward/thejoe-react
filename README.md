@@ -1,3 +1,7 @@
+Welcome to THE JOE: a fully customizable fantasy league for college basketball fanatics.
+
+Once you’ve cloned this project from GitHub, run npm install. To run the app, run nom start.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

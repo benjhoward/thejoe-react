@@ -33,7 +33,7 @@ class League extends Component {
           <section className="score-breakdown">
             <div className="container">
               <div className="row league-top">
-                <!-- Matchups -->
+               {/* Matchups */}
                 <div className="col-md-6 col-league">
                   <div className="row league-title-bordered">
                     <div className="league-title-button">
@@ -176,7 +176,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/lynch.jpg" className="score-mug">
+                              <img src="../matchup/img/lynch.jpg" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="winning-team">Team Name Here</p>
@@ -232,7 +232,7 @@ class League extends Component {
                     </div>
                   </div>
                 </div>
-                <!-- Standings -->
+                {/* Standings */}
                 <div className="col-md-6 col-league">
                   <div className="row no-button">
                     <div className="league-title-button">
@@ -324,7 +324,7 @@ class League extends Component {
                   </table>
                 </div>
               </div>
-              <!-- Message board -->
+              {/* Message board */}
               <div className="row">
                 <div className="col-xs-12 message-board">
                   <div className="row league-title-bordered">

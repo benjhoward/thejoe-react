@@ -74,7 +74,7 @@ class Players extends Component {
               <div className="col-md-4">
                 <p className="players-title">FAPs past four games</p>
                 <div className="players-recent">
-                  <!-- <img src="img/line-chart.png"/> -->
+                  {/* <img src="img/line-chart.png"/> */}
                 </div>
               </div>
               <div className="col-md-3 players-pt-avg">

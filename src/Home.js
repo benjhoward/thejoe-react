@@ -7,7 +7,7 @@ class Home extends Component {
         {/*<div className="place-holder"><Link to="/matchup"><img src="img/joe.png"/></Link></div>*/}
         <section className="home-top">
           <div className="container" id="hide-header">
-            <!-- NAV -->
+            {/* NAV */}
             <div className="row nav-top ">
               <div className="col-sm-4 ">
                 <ul className="row nav-menu align-left">
@@ -45,34 +45,34 @@ class Home extends Component {
               <div className="row features">
                 <div className="col-md-4 features-card">
                   <img src="img/ref.png"/>
-                  <h2>Set<br>your rules</h2>
+                  <h2>Set<br/>your rules</h2>
                   <p>The Joe’s fully customizable settings allow you to create your FANTASY fantasy college basketball league.</p>
                 </div>
                 <div className="col-md-4 features-card">
                   <img src="img/player.png"/>
-                  <h2>Choose<br>your players</h2>
+                  <h2>Choose<br/>your players</h2>
                   <p>Build a roster with current players from power-conference schools — Big Ten, ACC, Big 12, SEC, Pac 12, Big East and American.</p>
                 </div>
                 <div className="col-md-4 features-card">
                   <img src="img/jerseys.png"/>
-                  <h2>Pick<br>your lineup</h2>
+                  <h2>Pick<br/>your lineup</h2>
                   <p>The Joe’s easy drag-and-drop feature makes setting your starting lineup as simple as sinking a wide-open layup.</p>
                 </div>
               </div>
               <div className="row features">
                 <div className="col-md-4 features-card">
                   <img src="img/bucket.png"/>
-                  <h2>Make<br>your call</h2>
+                  <h2>Make<br/>your call</h2>
                   <p>Can’t figure out who to start? Don’t sweat it. The Joe’s assistant coach allows you to analyze key statistics for up to three players.</p>
                 </div>
                 <div className="col-md-4 features-card">
                   <img src="img/bracket.png"/>
-                  <h2>Follow<br>your matchup</h2>
+                  <h2>Follow<br/>your matchup</h2>
                   <p>See live results with statistical comparisons as the good guys take on the bad boys on The Joe’s matchup page.</p>
                 </div>
                 <div className="col-md-4 features-card">
                   <img src="img/shoe.png"/>
-                  <h2>Use<br>your device</h2>
+                  <h2>Use<br/>your device</h2>
                   <p>The Joe knows mobile. Forget about downloading another app with The Joe’s responsive interface optimized for your phone browser.</p>
                 </div>
               </div>

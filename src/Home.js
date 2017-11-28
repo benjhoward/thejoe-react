@@ -1,6 +1,21 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
+  componentDidMount(){
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll(){
+    var el = document.getElementById("hide-header");
+    if(el){
+      if(window.scrollY > 1000) {
+        el.className += " active";
+      } else {
+        el.classList.remove("active");
+      }
+    }
+  }
   render() {
     return (
       <div className="home-page">
@@ -108,35 +123,7 @@ class Home extends Component {
           </div>
 
         </footer>
-        <script
-          src="https://code.jquery.com/jquery-3.2.1.min.js"
-          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-          crossorigin="anonymous">    
-        </script>
-
-        <script>
-          //THIS ALSO WORKS
-
-          // $(window).bind('scroll', function() {
-          //      if ($(window).scrollTop() > 100) {
-          //          $('#hide-header').hide();
-          //      }
-          //      else {
-          //          $('#hide-header').show();
-          //      }
-          // });
-
-         
-          $window = $(window);
-          $(window).scroll(function(){
-
-          if($window.scrollTop() > 1000)
-              $("#hide-header").addClass('active');
-          else    
-              $("#hide-header").removeClass('active');
-          });
-
-        </script>
+        
   </div>
     );
   }

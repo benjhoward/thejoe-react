@@ -57,7 +57,7 @@ li {
 }
 
 nav {
-  /*background-image: url(../img/floor.jpg);*/
+  background-image: url(/../img/floor.jpg);
   background-size: cover;
   height: 260px;
   border-bottom: 4px solid #333333;
@@ -375,12 +375,13 @@ nav button:hover, .home-header button:hover {
 }
 
 .home-top {
-  /*background-image: url(../public/img/floor-top.png);*/
+  background-image: url(/../img/floor-top.png);
   background-size: cover;
   height: 100%;
   display: block;
   position: fixed;
   width: 100%;
+  background-color: #FFA800;
 }
 
 .home-header {
@@ -516,7 +517,7 @@ footer {
   align-items: center;
   text-align: center;
   padding: 60px 0;
-  /*background-image: url(../img/footer-circle.png);*/
+  background-image: url(/../img/footer-circle.png);
   background-position: center;
   background-size: cover;
   background-position-y: 0;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import PlayerTable from './PlayerTable';
 import './css/matchup-styles.css';
 
 class Matchup extends Component {
@@ -62,70 +63,16 @@ class Matchup extends Component {
                 <div className="matchup-pie">
                   <img src="img/saints-wheel.png"/>
                 </div>
-                <table className="matchup-roster">
-                  <tr>
-                    <th colspan="10" className="matchup-team">MANTOOTH SAINTS</th>
-                  </tr>
-                  <tr className="left">
-                    <th>Pos</th><th>Name</th><th>Opp</th><th>Pts</th><th>Reb</th><th>Ast</th><th>Stl</th><th>Blk</th><th>TO</th><th><strong>Total</strong></th>
-                  </tr>
-                  <tr>
-                    <td className="left">PG</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">W</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">W</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">BIG</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">BIG</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">UTL</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">UTL</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                </table>
+                <PlayerTable team="Another Team"></PlayerTable>
               </div>
 
               <div className="col-sm-6">
                 <div className="matchup-pie">
                   <img src="img/dutch-wheel.png"/>
                 </div>
-                <table className="matchup-roster">
-                  <tr>
-                    <th colspan="10" className="matchup-team">MARSHAWN'S DUNKIN DUTCHMEN</th>
-                  </tr>
-                  <tr className="left">
-                    <th>Pos</th><th>Name</th><th>Opp</th><th>Pts</th><th>Reb</th><th>Ast</th><th>Stl</th><th>Blk</th><th>TO</th><th><strong>Total</strong></th>
-                  </tr>
-                  <tr>
-                    <td className="left">PG</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">W</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">W</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">BIG</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">BIG</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">UTL</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                  <tr>
-                    <td className="left">UTL</td><td className="left">Xavier Rathan Mayes</td><td className="left">Purdue</td><td>17</td><td>6</td><td>6</td><td>3</td><td>0</td><td>3</td><td>29</td>
-                  </tr>
-                </table>
+
+                  <PlayerTable team="Mantooth Saints"></PlayerTable>
+
               </div>
             </div>
             <div className="row">
@@ -298,10 +245,14 @@ class Matchup extends Component {
                     <p className="fap-player">XAVIER RATHAN-MAYES</p>
                     <div className="fap-chart">
                       <table className="fap-stats">
-                        <th colspan="2">vs. North Carolina</th>
+                      <tbody>
+                      <tr>
+                        <th colSpan="2">vs. North Carolina</th>
+                        </tr>
                         <tr>
                           <td>Points</td><td>24</td>
                         </tr>
+
                         <tr>
                           <td>Rebounds</td><td>6</td>
                         </tr>
@@ -317,6 +268,7 @@ class Matchup extends Component {
                         <tr>
                           <td>Turnovers</td><td>2</td>
                         </tr>
+                        </tbody>
                       </table>
                     </div>
                     <p className="fap-team">Team name</p></div>
@@ -325,25 +277,30 @@ class Matchup extends Component {
                     <p className="fap-player">XAVIER RATHAN-MAYES</p>
                     <div className="fap-chart">
                       <table className="fap-stats">
-                        <th colspan="2">vs. North Carolina</th>
-                        <tr>
-                          <td>Points</td><td>24</td>
-                        </tr>
-                        <tr>
-                          <td>Rebounds</td><td>6</td>
-                        </tr>
-                        <tr>
-                          <td>Assists</td><td>12</td>
-                        </tr>
-                        <tr>
-                          <td>Steals</td><td>4</td>
-                        </tr>
-                        <tr>
-                          <td>Blocks</td><td>0</td>
-                        </tr>
-                        <tr>
-                          <td>Turnovers</td><td>2</td>
-                        </tr>
+                        <tbody>
+                          <tr>
+                            <th colSpan="2">vs. North Carolina</th>
+                          </tr>
+
+                          <tr>
+                            <td>Points</td><td>24</td>
+                          </tr>
+                          <tr>
+                            <td>Rebounds</td><td>6</td>
+                          </tr>
+                          <tr>
+                            <td>Assists</td><td>12</td>
+                          </tr>
+                          <tr>
+                            <td>Steals</td><td>4</td>
+                          </tr>
+                          <tr>
+                            <td>Blocks</td><td>0</td>
+                          </tr>
+                          <tr>
+                            <td>Turnovers</td><td>2</td>
+                          </tr>
+                        </tbody>
                       </table>
                     </div>
                     <p className="fap-team">Team name</p></div>
@@ -352,7 +309,11 @@ class Matchup extends Component {
                     <p className="fap-player">XAVIER RATHAN-MAYES</p>
                     <div className="fap-chart">
                       <table className="fap-stats">
-                        <th colspan="2">vs. North Carolina</th>
+                      <tbody>
+                        <tr>
+                          <th colSpan="2">vs. North Carolina</th>
+                        </tr>
+
                         <tr>
                           <td>Points</td><td>24</td>
                         </tr>
@@ -371,6 +332,7 @@ class Matchup extends Component {
                         <tr>
                           <td>Turnovers</td><td>2</td>
                         </tr>
+                        </tbody>
                       </table>
                     </div>
                     <p className="fap-team">Team name</p></div>
@@ -379,7 +341,10 @@ class Matchup extends Component {
                     <p className="fap-player">XAVIER RATHAN-MAYES</p>
                     <div className="fap-chart">
                       <table className="fap-stats">
-                        <th colspan="2">vs. North Carolina</th>
+                      <tbody>
+                      <tr>
+                        <th colSpan="2">vs. North Carolina</th>
+                        </tr>
                         <tr>
                           <td>Points</td><td>24</td>
                         </tr>
@@ -398,6 +363,7 @@ class Matchup extends Component {
                         <tr>
                           <td>Turnovers</td><td>2</td>
                         </tr>
+                        </tbody>
                       </table>
                     </div>
                     <p className="fap-team">Team name</p></div>
@@ -406,7 +372,10 @@ class Matchup extends Component {
                     <p className="fap-player">XAVIER RATHAN-MAYES</p>
                     <div className="fap-chart">
                       <table className="fap-stats">
-                        <th colspan="2">vs. North Carolina</th>
+                      <tbody>
+                      <tr>
+                        <th colSpan="2">vs. North Carolina</th>
+                        </tr>
                         <tr>
                           <td>Points</td><td>24</td>
                         </tr>
@@ -425,6 +394,7 @@ class Matchup extends Component {
                         <tr>
                           <td>Turnovers</td><td>2</td>
                         </tr>
+                        </tbody>
                       </table>
                     </div>
                     <p className="fap-team">Team name</p></div>

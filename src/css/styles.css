@@ -187,6 +187,7 @@ nav button:hover, .home-header button:hover {
   font-size: 15px;
   letter-spacing: 1px;
   text-align: center !important;
+  text-transform: uppercase;
 }
 
 .matchup-roster {

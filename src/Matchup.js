@@ -46,7 +46,7 @@ class Matchup extends Component {
             <div className="row team-score">
               <div className="col-md-3 team-score-name">
                 <img src="img/matchup/lynch.jpg" className="score-mug"/>
-                <p>Marshawn's Dunkin Dutchmen</p>
+                <p>Marshawns Dunkin Dutchmen</p>
               </div>
               <div className="col-xs-8 np-left">
                       <p className="winning-team">point breakdown</p>
@@ -63,7 +63,7 @@ class Matchup extends Component {
                 <div className="matchup-pie">
                   <img src="img/saints-wheel.png"/>
                 </div>
-                <PlayerTable team="Another Team"></PlayerTable>
+                <PlayerTable team="Marshawns Dunkin Dutchmen"></PlayerTable>
               </div>
 
               <div className="col-sm-6">

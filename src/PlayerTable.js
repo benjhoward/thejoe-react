@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import PlayerAPI from './api';
-import './css/matchup-styles.css';
-
-const Players = PlayerAPI.all();
 
 const PlayerRows = (props) => {
+  const TeamPlayers = PlayerAPI.getTeam(props.team);
     return(
       <tbody>
         <tr>
@@ -15,7 +13,7 @@ const PlayerRows = (props) => {
         </tr>
 
         {
-          Players.map( (player, i) => (
+          TeamPlayers.map( (player, i) => (
             <tr key={i}>
             {
               Object.keys(player).map( (prop, i) => (

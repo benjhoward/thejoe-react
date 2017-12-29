@@ -12,13 +12,13 @@ const PlayerAPI = {
   },
   marshawns: {
     players: [
-      { pos: "PG", name: "Marshawn", opp: "Purdue", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
-      { pos: "PG", name: "Xavier Rathan Mayes", opp: "Purdue", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
-      { pos: "PG", name: "Xavier Rathan Mayes", opp: "Purdue", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
-      { pos: "PG", name: "Xavier Rathan Mayes", opp: "Purdue", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
-      { pos: "PG", name: "Xavier Rathan Mayes", opp: "Purdue", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
-      { pos: "PG", name: "Xavier Rathan Mayes", opp: "Purdue", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
-      { pos: "PG", name: "Xavier Rathan Mayes", opp: "Purdue", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 }
+      { pos: "PG", name: "Kamar Baldwin", opp: "Villanova", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
+      { pos: "WING", name: "Justin Simon", opp: "Seton Hall", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
+      { pos: "WING", name: "Jarrey Foster", opp: "USF", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
+      { pos: "BIG", name: "Grant Williams", opp: "Tennessee", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
+      { pos: "BIG", name: "Daniel Gafford", opp: "Arkansas", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
+      { pos: "UTIL", name: "Kevin Huerter", opp: "UMBC", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 },
+      { pos: "UTIL", name: "Martin Krampelj", opp: "Providence", pts: 17, reb: 6, ast: 6, stl: 3, blk: 0, TO: 3, total: 29 }
     ],
   },
   getTeam: function(teamName){

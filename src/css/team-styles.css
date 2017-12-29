@@ -170,7 +170,9 @@ nav h2 {
 
 .matchup-roster td:nth-child(2) {
   color: #2085FF;
+  width: 24%;
 }
+
 
 .home-header button {
   background-color: white;

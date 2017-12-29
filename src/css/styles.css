@@ -200,7 +200,7 @@ nav button:hover, .home-header button:hover {
 
 .matchup-roster th, td {
   border-bottom: 2px solid #E6E6E6;
-  padding: 14px 0;
+  padding: 14px 10px;
 }
 
 /*.matchup-roster td:nth-child(6) {

@@ -92,7 +92,7 @@ class Team extends Component {
                 <div className="start-bench">
                   <p>STARTING ROSTER</p>
                 </div>
-                <table className="matchup-roster team-roster">
+                <table className="matchup-roster team-roster split-roster">
                   <tbody>
                     <tr>
                       <th colSpan="6" className="matchup-team">2017-18 SEASON</th>

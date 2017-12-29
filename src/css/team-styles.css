@@ -84,6 +84,14 @@ nav h2 {
   width: 100%;
 }
 
+.score-team {
+  background-color: #FFBF26;
+  padding: 10px 0px;
+  text-align: center;
+  justify-content: center;
+  width: 10%;
+}
+
 .score p {
   font-weight: 800;
 }

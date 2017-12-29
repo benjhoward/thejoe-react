@@ -53,14 +53,14 @@ class Team extends Component {
                       <p>Your team name</p>
                     </div>
 
-                    <div className="league-title-subject score" id="score-line">
+                    <div className="league-title-subject score-team" id="score-line">
                       <p>240</p>
                     </div>
                   </div>
 
                   <div className="league-title-button">
 
-                    <div className="league-title-subject right-subject score">
+                    <div className="league-title-subject right-subject score-team">
                       <p>240</p>
                     </div>
 

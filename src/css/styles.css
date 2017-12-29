@@ -191,7 +191,7 @@ nav button:hover, .home-header button:hover {
 }
 
 .matchup-roster {
-  width: 100%;
+  width: 95%;
   border-collapse: collapse;
   border-spacing: 8px;
   text-align: right;
@@ -313,7 +313,7 @@ nav button:hover, .home-header button:hover {
 
 .league-title-button button {
   width: 100%;
-  padding: 10px 15px;
+  padding: 12px 15px;
   background-color: #e6e6e6;
   border: 0;
   float: left;

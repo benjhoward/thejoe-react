@@ -19,7 +19,11 @@
   padding-bottom: 20px;
 }
 
-
+.game-matchup {
+    margin-bottom: 2%;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 2%;
+}
 
 .matchup-roster th, td {
   padding: 10px 0;

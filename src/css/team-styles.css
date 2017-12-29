@@ -13,7 +13,7 @@ nav h2 {
 .score-mug {
   display: block;
   float: none;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   width: 70px;
   height: 70px;
   /* border: 1px solid #ffffff; */
@@ -77,11 +77,11 @@ nav h2 {
 }
 
 .score {
-  background-color: #FFBF26;
+  /*background-color: #FFBF26;*/
   padding: 10px 0px;
   text-align: center;
   justify-content: center;
-  width: 10%;
+  width: 100%;
 }
 
 .score p {

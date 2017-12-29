@@ -61,14 +61,14 @@ class Matchup extends Component {
             <div className="row">
               <div className="col-sm-6">
                 <div className="matchup-pie">
-                  <img src="img/saints-wheel.png" alt="Chart"/>
+                  <img src="img/matchup/saints-wheel.png" alt="Chart"/>
                 </div>
                 <PlayerTable team="Marshawns Dunkin Dutchmen"></PlayerTable>
               </div>
 
               <div className="col-sm-6">
                 <div className="matchup-pie">
-                  <img src="img/dutch-wheel.png" alt="Chart"/>
+                  <img src="img/matchup/dutch-wheel.png" alt="Chart"/>
                 </div>
 
                   <PlayerTable team="Mantooth Saints"></PlayerTable>
@@ -85,7 +85,7 @@ class Matchup extends Component {
 
         <section className="container other-scores">
           <div className="row">
-            <div className="col-sm-6 game">
+            <div className="col-sm-6 game-matchup">
               <div className="row">
                   <div className="col-sm-12 more-scores">
                     <div className="col-xs-2 np-right">
@@ -113,65 +113,7 @@ class Matchup extends Component {
                   </div>
               </div>
             </div>
-            <div className="col-sm-6 game">
-              <div className="row">
-                  <div className="col-sm-12 more-scores">
-                    <div className="col-xs-2 np-right">
-                      <img src="img/matchup/lynch.jpg" alt="Marshawn" className="score-mug"/>
-                    </div>
-                    <div className="col-xs-8 np-left">
-                      <p className="winning-team">Team Name Here</p>
-                    </div>
-                    <div className="col-xs-2">
-                      <div className="score-total"><p>202</p></div>
-                    </div>
-                  </div>
-              </div>
-              <div className="row">
-                  <div className="col-sm-12 more-scores">
-                    <div className="col-xs-2 np-right">
-                      <img src="img/wes.jpg" alt="Mantooth" className="score-mug"/>
-                    </div>
-                    <div className="col-xs-8 np-left">
-                      <p className="losing-team">Team Name Here</p>
-                    </div>
-                    <div className="col-xs-2">
-                      <div className="score-total"><p>180</p></div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-6 game">
-              <div className="row">
-                  <div className="col-sm-12 more-scores">
-                    <div className="col-xs-2 np-right">
-                      <img src="img/matchup/lynch.jpg" alt="Marshawn" className="score-mug"/>
-                    </div>
-                    <div className="col-xs-8 np-left">
-                      <p className="winning-team">Team Name Here</p>
-                    </div>
-                    <div className="col-xs-2">
-                      <div className="score-total"><p>202</p></div>
-                    </div>
-                  </div>
-              </div>
-              <div className="row">
-                  <div className="col-sm-12 more-scores">
-                    <div className="col-xs-2 np-right">
-                      <img src="img/wes.jpg" alt="Mantooth" className="score-mug"/>
-                    </div>
-                    <div className="col-xs-8 np-left">
-                      <p className="losing-team">Team Name Here</p>
-                    </div>
-                    <div className="col-xs-2">
-                      <div className="score-total"><p>180</p></div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="col-sm-6 game">
+            <div className="col-sm-6 game-matchup">
               <div className="row">
                   <div className="col-sm-12 more-scores">
                     <div className="col-xs-2 np-right">
@@ -201,7 +143,65 @@ class Matchup extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-6 game" id="game-5">
+            <div className="col-sm-6 game-matchup">
+              <div className="row">
+                  <div className="col-sm-12 more-scores">
+                    <div className="col-xs-2 np-right">
+                      <img src="img/matchup/lynch.jpg" alt="Marshawn" className="score-mug"/>
+                    </div>
+                    <div className="col-xs-8 np-left">
+                      <p className="winning-team">Team Name Here</p>
+                    </div>
+                    <div className="col-xs-2">
+                      <div className="score-total"><p>202</p></div>
+                    </div>
+                  </div>
+              </div>
+              <div className="row">
+                  <div className="col-sm-12 more-scores">
+                    <div className="col-xs-2 np-right">
+                      <img src="img/wes.jpg" alt="Mantooth" className="score-mug"/>
+                    </div>
+                    <div className="col-xs-8 np-left">
+                      <p className="losing-team">Team Name Here</p>
+                    </div>
+                    <div className="col-xs-2">
+                      <div className="score-total"><p>180</p></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div className="col-sm-6 game-matchup">
+              <div className="row">
+                  <div className="col-sm-12 more-scores">
+                    <div className="col-xs-2 np-right">
+                      <img src="img/matchup/lynch.jpg" alt="Marshawn" className="score-mug"/>
+                    </div>
+                    <div className="col-xs-8 np-left">
+                      <p className="winning-team">Team Name Here</p>
+                    </div>
+                    <div className="col-xs-2">
+                      <div className="score-total"><p>202</p></div>
+                    </div>
+                  </div>
+              </div>
+              <div className="row">
+                  <div className="col-sm-12 more-scores">
+                    <div className="col-xs-2 np-right">
+                      <img src="img/wes.jpg" alt="Mantooth" className="score-mug"/>
+                    </div>
+                    <div className="col-xs-8 np-left">
+                      <p className="losing-team">Team Name Here</p>
+                    </div>
+                    <div className="col-xs-2">
+                      <div className="score-total"><p>180</p></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-6 game-matchup" id="game-5">
               <div className="row">
                   <div className="col-sm-12 more-scores">
                     <div className="col-xs-2 np-right">

@@ -29,7 +29,7 @@ class Home extends Component {
                   <Link to="league/index.html"><li className="col-sm-3 nm-right">Sign In</li></Link>
                 </ul>
               </div>
-              <div className="col-sm-4 nav-logo nl-home"><Link to="/"><img src="img/joe-nav.png"/></Link></div>
+              <div className="col-sm-4 nav-logo nl-home"><Link to="/"><img src="img/joe-nav.png" alt="The Joe"/></Link></div>
               <div className="col-sm-4 ">
                 <ul className="row nav-menu">
                   <Link to="/league"><li className="col-sm-3 nm-right">Sign Up</li></Link>
@@ -47,7 +47,7 @@ class Home extends Component {
         <section className="home-circle-top">
           <div className="circle-top">
             <img src="img/circle-top.png"/>
-            <img src="img/circle-bottom.png"/>
+            <img src="img/circle-bottom.png" alt="Chart"/>
           </div>
           <div className="center-content">
             <div className="container">
@@ -59,40 +59,40 @@ class Home extends Component {
 
               <div className="row features">
                 <div className="col-md-4 features-card">
-                  <img src="img/ref.png"/>
+                  <img src="img/ref.png" alt="Rules"/>
                   <h2>Set<br/>your rules</h2>
                   <p>The Joe’s fully customizable settings allow you to create your FANTASY fantasy college basketball league.</p>
                 </div>
                 <div className="col-md-4 features-card">
-                  <img src="img/player.png"/>
+                  <img src="img/player.png" alt="Players"/>
                   <h2>Choose<br/>your players</h2>
                   <p>Build a roster with current players from power-conference schools — Big Ten, ACC, Big 12, SEC, Pac 12, Big East and American.</p>
                 </div>
                 <div className="col-md-4 features-card">
-                  <img src="img/jerseys.png"/>
+                  <img src="img/jerseys.png" alt="Lineup"/>
                   <h2>Pick<br/>your lineup</h2>
                   <p>The Joe’s easy drag-and-drop feature makes setting your starting lineup as simple as sinking a wide-open layup.</p>
                 </div>
               </div>
               <div className="row features">
                 <div className="col-md-4 features-card">
-                  <img src="img/bucket.png"/>
+                  <img src="img/bucket.png" alt="Your Call"/>
                   <h2>Make<br/>your call</h2>
                   <p>Can’t figure out who to start? Don’t sweat it. The Joe’s assistant coach allows you to analyze key statistics for up to three players.</p>
                 </div>
                 <div className="col-md-4 features-card">
-                  <img src="img/bracket.png"/>
+                  <img src="img/bracket.png" alt="Matchup"/>
                   <h2>Follow<br/>your matchup</h2>
                   <p>See live results with statistical comparisons as the good guys take on the bad boys on The Joe’s matchup page.</p>
                 </div>
                 <div className="col-md-4 features-card">
-                  <img src="img/shoe.png"/>
+                  <img src="img/shoe.png" alt="Mobile"/>
                   <h2>Use<br/>your device</h2>
                   <p>The Joe knows mobile. Forget about downloading another app with The Joe’s responsive interface optimized for your phone browser.</p>
                 </div>
               </div>
               <div className="row devices">
-                <img src="img/devices.png"/>
+                <img src="img/devices.png" alt="Devices"/>
               </div>
 
             </div>  
@@ -110,7 +110,7 @@ class Home extends Component {
         <footer>
           <div className="bottom-circle">
             <div>
-              <img src="img/joe.png"/>
+              <img src="img/joe.png" alt="The Joe"/>
             </div>
             <ul>
               <Link to="/"><li>Contact Us</li></Link> |

@@ -9,7 +9,7 @@ class Team extends Component {
         <nav>
           <div className="container">
             <div className="row nav-top">
-              <div className="col-sm-6 nav-logo"><Link to='/'><img src="img/joe-nav.png"/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true"></i></p></div>
+              <div className="col-sm-6 nav-logo"><Link to='/'><img src="img/joe-nav.png" alt="The Joe"/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true"></i></p></div>
               <div className="col-sm-6 ">
                 <ul className="row nav-menu">
                   <Link to="/players"><li className="col-sm-3">Players</li></Link>
@@ -22,7 +22,7 @@ class Team extends Component {
 
             <div className="row nav-title">
               <div className="col-sm-4"></div>
-              <div className="col-sm-4"><img src="img/matchup/wes.jpg" className="score-mug"/><h2>Mantooth Saints</h2></div>
+              <div className="col-sm-4"><img src="img/matchup/wes.jpg" alt="Mantooth" className="score-mug"/><h2>Mantooth Saints</h2></div>
               <div className="col-sm-4">
               {/*<button>Week 13<i className="fa fa-angle-down" aria-hidden="true" style="margin-left: 20px;"></i></button>*/}
               </div>

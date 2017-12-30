@@ -4,12 +4,15 @@ import './css/league-styles.css';
 
 class League extends Component {
   render() {
+    var extraMarginLeft = {
+      marginLeft: "20px"
+    };
     return (
       <div>
           <nav>
             <div className="container">
               <div className="row nav-top">
-                <div className="col-sm-6 nav-logo"><Link to="../index.html"><img src="../img/joe-nav.png" alt="The Joe"/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true" style="margin-left: 12px;"></i></p></div>
+                <div className="col-sm-6 nav-logo"><Link to="../index.html"><img src="../img/joe-nav.png" alt="The Joe"/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true" style={extraMarginLeft}></i></p></div>
                 <div className="col-sm-6 ">
                   <ul className="row nav-menu">
                     <Link to="/players"><li className="col-sm-3">Players</li></Link>
@@ -23,7 +26,7 @@ class League extends Component {
               <div className="row nav-title">
                 <div className="col-sm-4"></div>
                 <div className="col-sm-4"><h2>The League</h2></div>
-                <div className="col-sm-4"><button>Season<i className="fa fa-angle-down" aria-hidden="true" style="margin-left: 20px;"></i></button></div>
+                <div className="col-sm-4"><button>Season<i className="fa fa-angle-down" aria-hidden="true" style={extraMarginLeft}></i></button></div>
 
               </div>
             </div>
@@ -36,8 +39,8 @@ class League extends Component {
                {/* Matchups */}
                 <div className="col-md-6 col-league">
                   <div className="row league-title-bordered">
-                    <div className="league-title-button">
-                      <div className="col-xs-7 league-title-subject">
+                    <div className="league-title-button-overview">
+                      <div className="col-xs-7 league-title-header">
                         <p>Matchups</p>
                       </div>
                       <div className="col-xs-5">
@@ -56,7 +59,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/lynch.jpg"  alt="Marshawn" className="score-mug"/>
+                              <img src="img/matchup/lynch.jpg"  alt="Marshawn" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="winning-team">Team Name Here</p>
@@ -69,7 +72,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/wes.jpg"  alt="Mantooth" className="score-mug"/>
+                              <img src="img/matchup/wes.jpg"  alt="Mantooth" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="losing-team">Team Name Here</p>
@@ -86,7 +89,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/lynch.jpg" alt="Marshawn" className="score-mug"/>
+                              <img src="img/matchup/lynch.jpg" alt="Marshawn" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="winning-team">Team Name Here</p>
@@ -99,7 +102,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/wes.jpg" alt="Mantooth" className="score-mug"/>
+                              <img src="img/matchup/wes.jpg" alt="Mantooth" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="losing-team">Team Name Here</p>
@@ -116,7 +119,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/lynch.jpg" alt="Marshawn" className="score-mug"/>
+                              <img src="img/matchup/lynch.jpg" alt="Marshawn" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="winning-team">Team Name Here</p>
@@ -129,7 +132,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/wes.jpg" alt="Mantooth" className="score-mug"/>
+                              <img src="img/matchup/wes.jpg" alt="Mantooth" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="losing-team">Team Name Here</p>
@@ -146,7 +149,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/lynch.jpg" alt="Marshawn" className="score-mug"/>
+                              <img src="img/matchup/lynch.jpg" alt="Marshawn" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="winning-team">Team Name Here</p>
@@ -159,7 +162,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/wes.jpg" alt="Mantooth" className="score-mug"/>
+                              <img src="img/matchup/wes.jpg" alt="Mantooth" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="losing-team">Team Name Here</p>
@@ -176,7 +179,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/lynch.jpg" alt="Marshawn" className="score-mug"/>
+                              <img src="img/matchup/lynch.jpg" alt="Marshawn" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="winning-team">Team Name Here</p>
@@ -189,7 +192,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/wes.jpg" alt="Mantooth" className="score-mug"/>
+                              <img src="img/matchup/wes.jpg" alt="Mantooth" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="losing-team">Team Name Here</p>
@@ -206,7 +209,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/lynch.jpg" alt="Marshawn" className="score-mug"/>
+                              <img src="img/matchup/lynch.jpg" alt="Marshawn" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="winning-team">Team Name Here</p>
@@ -219,7 +222,7 @@ class League extends Component {
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
-                              <img src="../matchup/img/wes.jpg" alt="Mantooth" className="score-mug"/>
+                              <img src="img/matchup/wes.jpg" alt="Mantooth" className="score-mug"/>
                             </div>
                             <div className="col-xs-8 np-left">
                               <p className="losing-team">Team Name Here</p>

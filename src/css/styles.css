@@ -324,6 +324,27 @@ nav button:hover, .home-header button:hover {
   background-color: #d4d4d4;
 }
 
+.league-title-button-overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.league-title-button-overview button {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #e6e6e6;
+  border: 0;
+  float: left;
+  font-size: 15px;
+}
+
+.league-title-button-overview button:hover {
+  background-color: #d4d4d4;
+}
+
+
 .players-button {
   display: flex;
   width: 100%;

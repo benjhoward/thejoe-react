@@ -4,12 +4,15 @@ import './css/players-styles.css';
 
 class Players extends Component {
   render() {
+    var extraMarginLeft = {
+      marginLeft: "20px"
+    };
     return (
       <div>
         <nav>
           <div className="container">
             <div className="row nav-top">
-              <div className="col-sm-6 nav-logo"><Link to="../index.html"><img src="../img/joe-nav.png" alt="The Joe"/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true" style="margin-left: 12px;"></i></p></div>
+              <div className="col-sm-6 nav-logo"><Link to="../index.html"><img src="../img/joe-nav.png" alt="The Joe"/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true" style={extraMarginLeft}></i></p></div>
               <div className="col-sm-6 ">
                 <ul className="row nav-menu">
                   <li className="col-sm-3 active">Players</li>
@@ -21,9 +24,9 @@ class Players extends Component {
             </div>
 
             <div className="row nav-title">
-              <div className="col-sm-4"><button className="left-button">Available<i className="fa fa-angle-down" aria-hidden="true" style="margin-left: 20px;"></i></button></div>
+              <div className="col-sm-4"><button className="left-button">Available<i className="fa fa-angle-down" aria-hidden="true" style={extraMarginLeft}></i></button></div>
               <div className="col-sm-4"><h2>Players</h2></div>
-              <div className="col-sm-4"><button>Season<i className="fa fa-angle-down" aria-hidden="true" style="margin-left: 20px;"></i></button></div>
+              <div className="col-sm-4"><button>Season<i className="fa fa-angle-down" aria-hidden="true" style={extraMarginLeft}></i></button></div>
 
             </div>
           </div>

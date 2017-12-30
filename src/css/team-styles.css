@@ -40,6 +40,16 @@ nav h2 {
   padding: 10px 0px;
 }
 
+.league-title-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 400;
+  /*background-color: #f2f2f2;*/
+  padding: 10px 0px;
+}
+
 .league-title-subject p {
   font-weight: 300;
   font-size: 16px;

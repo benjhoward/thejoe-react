@@ -3,14 +3,23 @@
 }
 
 .col-league {
-  width: 48%;
-  margin: 0 1%;
+  width: 48% !important;
+  margin: 0 1% !important;
 }
 .game {
   border-bottom: none;
 }
 
 .game::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #e6e6e6;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 20px;
+}
+
+.game-league::after {
   content: "";
   display: block;
   border-bottom: 2px solid #e6e6e6;

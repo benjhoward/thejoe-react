@@ -55,7 +55,7 @@ class League extends Component {
                   </div>
 
                   <div className="row">
-                    <div className="game"> 
+                    <div className="game-league"> 
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -85,7 +85,7 @@ class League extends Component {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game"> 
+                    <div className="game-league"> 
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -115,7 +115,7 @@ class League extends Component {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game"> 
+                    <div className="game-league"> 
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -145,7 +145,7 @@ class League extends Component {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game"> 
+                    <div className="game-league"> 
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -175,7 +175,7 @@ class League extends Component {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game"> 
+                    <div className="game-league"> 
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -205,7 +205,7 @@ class League extends Component {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game"> 
+                    <div className="game-league"> 
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -237,9 +237,9 @@ class League extends Component {
                 </div>
                 {/* Standings */}
                 <div className="col-md-6 col-league">
-                  <div className="row no-button">
-                    <div className="league-title-button">
-                      <div className="league-title-subject">
+                  <div className="row no-button-league">
+                    <div className="league-title-button-overview">
+                      <div className="league-title-header">
                         <p>Standings</p>
                       </div>
                     </div>
@@ -289,8 +289,8 @@ class League extends Component {
                     </tbody>  
                   </table>
                   <div className="row league-title-bordered">
-                    <div className="league-title-button">
-                      <div className="col-xs-7 league-title-subject">
+                    <div className="league-title-button-overview">
+                      <div className="col-xs-7 league-title-header">
                         <p>Schedule</p>
                       </div>
                       <div className="col-xs-5">
@@ -331,8 +331,8 @@ class League extends Component {
               <div className="row">
                 <div className="col-xs-12 message-board">
                   <div className="row league-title-bordered">
-                    <div className="league-title-button">
-                      <div className="col-xs-9 league-title-subject">
+                    <div className="league-title-button-overview">
+                      <div className="col-xs-9 league-title-header">
                         <p>League Message Board</p>
                       </div>
                       <div className="col-xs-3">

@@ -12,7 +12,7 @@ class Players extends Component {
         <nav>
           <div className="container">
             <div className="row nav-top">
-              <div className="col-sm-6 nav-logo"><Link to="../index.html"><img src="../img/joe-nav.png" alt="The Joe"/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true" style={extraMarginLeft}></i></p></div>
+              <div className="col-sm-6 nav-logo"><Link to="/"><img src="../img/joe-nav.png" alt="The Joe"/></Link><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true" style={extraMarginLeft}></i></p></div>
               <div className="col-sm-6 ">
                 <ul className="row nav-menu">
                   <li className="col-sm-3 active">Players</li>

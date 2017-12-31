@@ -10,7 +10,7 @@ class Matchup extends Component {
         <nav>
           <div className="container">
             <div className="row nav-top">
-              <div className="col-sm-6 nav-logo"><a href="../index.html"><img src="../img/joe-nav.png" alt="The Joe"/></a><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true"></i></p></div>
+              <div className="col-sm-6 nav-logo"><a href="/"><img src="../img/joe-nav.png" alt="The Joe"/></a><p>Hello, Coach Howard <i className="fa fa-cog" aria-hidden="true"></i></p></div>
               <div className="col-sm-6 ">
                 <ul className="row nav-menu">
                   <Link to="/players"><li className="col-sm-3">Players</li></Link>

@@ -303,7 +303,7 @@ class League extends Component {
                       </div>
                     </div>
                   </div>
-                  <table className="matchup-roster">
+                  <table className="matchup-roster league-schedule">
                     <tbody>
                       <tr>
                         <th>Wk</th><th>Opponent</th><th>W-L-T</th><th>Score</th>
@@ -335,7 +335,7 @@ class League extends Component {
                       <div className="col-xs-9 league-title-header">
                         <p>League Message Board</p>
                       </div>
-                      <div className="col-xs-3">
+                      <div className="col-xs-3 plus-button">
                         <button className="col-xs-4">
                           <div className="players-button">
                             <p>New message</p>

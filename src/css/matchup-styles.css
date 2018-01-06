@@ -88,3 +88,18 @@ h5 {
   font-size: 15px;
   letter-spacing: .5px;
 }
+
+
+.matchup-page th:nth-child(7), td:nth-child(7) {
+  padding-left: 0;
+}
+
+.matchup-page td:nth-child(3) {
+  text-align: left !important;
+}
+
+.matchup-page td:nth-child(6), td:nth-child(7), tr:nth-child(6), tr:nth-child(7) {
+  text-align: right !important;
+  padding-right: 0 !important;
+  border-right: none !important;
+}

@@ -31,7 +31,7 @@ const PlayerRows = (props) => {
 class PlayerTable extends Component {
   render() {
     return (
-      <table className="matchup-roster">
+      <table className="matchup-roster matchup-page">
         <PlayerRows team={this.props.team} />
       </table>
     );

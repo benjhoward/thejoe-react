@@ -77,6 +77,7 @@ class Players extends Component {
               <div className="col-md-4">
                 <p className="players-title">FAPs past four games</p>
                 <div className="players-recent">
+                  {/*<Link to="/"><img src="../img/players/line-chart.png" alt="The Joe"/></Link>*/}
                   {/* <img src="img/line-chart.png"/> */}
                 </div>
               </div>

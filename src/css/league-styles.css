@@ -55,6 +55,11 @@
 
 .league-standings {
   margin-bottom: 48px;
+  width: 100% !important;
+}
+
+.league-standings th:nth-child(3), th:nth-child(4), td:nth-child(3), td:nth-child(4) {
+  text-align: right !important;
 }
 
 .message-board {

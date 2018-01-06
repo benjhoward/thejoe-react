@@ -109,7 +109,7 @@ class Players extends Component {
             <div className="row">
               <div className="col-md-12">
                 
-                <table className="matchup-roster players-list">
+                <table className="matchup-roster players-list players-page">
                   <tbody>
                     <tr>
                       <th colSpan="13" className="matchup-team">2017-18 SEASON</th>

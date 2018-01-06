@@ -59,14 +59,14 @@ class Matchup extends Component {
         <section className="score-breakdown">
           <div className="container">
             <div className="row">
-              <div className="col-sm-6">
+              <div className="col-sm-6 more-padding-right">
                 <div className="matchup-pie">
                   <img src="img/matchup/saints-wheel.png" alt="Chart"/>
                 </div>
                 <PlayerTable team="Marshawns Dunkin Dutchmen"></PlayerTable>
               </div>
 
-              <div className="col-sm-6">
+              <div className="col-sm-6 more-padding-left">
                 <div className="matchup-pie">
                   <img src="img/matchup/dutch-wheel.png" alt="Chart"/>
                 </div>

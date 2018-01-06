@@ -89,6 +89,9 @@ h5 {
   letter-spacing: .5px;
 }
 
+.matchup-page {
+  width: 100% !important;
+}
 
 .matchup-page th:nth-child(7), td:nth-child(7) {
   padding-left: 10px;
@@ -106,4 +109,12 @@ h5 {
 
 .fap-stats td:nth-child(1) {
   text-align: left !important;
+}
+
+.more-padding-left {
+  padding-left: 25px !important;
+}
+
+.more-padding-right {
+  padding-right: 25px !important;
 }

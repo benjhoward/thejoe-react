@@ -3,8 +3,8 @@
 }
 
 .col-league {
-  width: 48%;
-  margin: 0 1%;
+  width: 48% !important;
+  margin: 0 1% !important;
 }
 .game {
   border-bottom: none;
@@ -19,7 +19,20 @@
   padding-bottom: 20px;
 }
 
+.game-league::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #e6e6e6;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 20px;
+}
 
+.game-matchup {
+    margin-bottom: 2%;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 2%;
+}
 
 .matchup-roster th, td {
   padding: 10px 0;
@@ -36,12 +49,25 @@
   font-weight: 800;
 }
 
-.matchup-roster th:nth-child(4), th:nth-child(5) {
+/*.matchup-roster th:nth-child(4), th:nth-child(5) {
   width: 80px;
-}
+}*/
 
 .league-standings {
   margin-bottom: 48px;
+  width: 100% !important;
+}
+
+.league-standings th:nth-child(3), th:nth-child(4), td:nth-child(3), td:nth-child(4) {
+  text-align: right !important;
+}
+
+.league-schedule {
+  width: 100% !important;
+}
+
+.league-schedule th:nth-child(3) {
+  text-align: right !important;
 }
 
 .message-board {
@@ -62,4 +88,8 @@
   margin-right: 15px;
   margin-bottom: 20px;
   padding-bottom: 12px;
+}
+
+.plus-button {
+  margin-bottom: -1px;
 }

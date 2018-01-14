@@ -57,7 +57,7 @@ li {
 }
 
 nav {
-  background-image: url(../img/floor.jpg);
+  background-image: url(/../img/floor.jpg);
   background-size: cover;
   height: 260px;
   border-bottom: 4px solid #333333;
@@ -187,10 +187,11 @@ nav button:hover, .home-header button:hover {
   font-size: 15px;
   letter-spacing: 1px;
   text-align: center !important;
+  text-transform: uppercase;
 }
 
 .matchup-roster {
-  width: 100%;
+  width: 95%;
   border-collapse: collapse;
   border-spacing: 8px;
   text-align: right;
@@ -199,7 +200,7 @@ nav button:hover, .home-header button:hover {
 
 .matchup-roster th, td {
   border-bottom: 2px solid #E6E6E6;
-  padding: 14px 0;
+  padding: 14px 10px;
 }
 
 /*.matchup-roster td:nth-child(6) {
@@ -280,6 +281,12 @@ nav button:hover, .home-header button:hover {
     padding-bottom: 2%;
 }
 
+.game-league {
+    margin-bottom: 2%;
+/*    border-bottom: 2px solid #e6e6e6;
+*/    padding-bottom: 2%;
+}
+
 .game .row:nth-child(2) {
   margin-top: 4px;
 }
@@ -312,7 +319,7 @@ nav button:hover, .home-header button:hover {
 
 .league-title-button button {
   width: 100%;
-  padding: 10px 15px;
+  padding: 12px 15px;
   background-color: #e6e6e6;
   border: 0;
   float: left;
@@ -322,6 +329,27 @@ nav button:hover, .home-header button:hover {
 .league-title-button button:hover {
   background-color: #d4d4d4;
 }
+
+.league-title-button-overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.league-title-button-overview button {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #e6e6e6;
+  border: 0;
+  float: left;
+  font-size: 15px;
+}
+
+.league-title-button-overview button:hover {
+  background-color: #d4d4d4;
+}
+
 
 .players-button {
   display: flex;
@@ -358,6 +386,17 @@ nav button:hover, .home-header button:hover {
   display: flex;
 }
 
+.no-button-league {
+  border-bottom: 4px solid #e6e6e6;
+  margin-bottom: 20px;
+  border-right: 4px solid #e6e6e6;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding-bottom: 0 !important;
+  text-align: left;
+  display: flex;
+}
+
 .align-left {
   justify-content: flex-start !important;
   margin-left: 0;
@@ -375,12 +414,13 @@ nav button:hover, .home-header button:hover {
 }
 
 .home-top {
-  background-image: url(../img/floor-top.png);
+  background-image: url(/../img/floor-top.png);
   background-size: cover;
   height: 100%;
   display: block;
   position: fixed;
   width: 100%;
+  background-color: #FFA800;
 }
 
 .home-header {
@@ -398,7 +438,7 @@ nav button:hover, .home-header button:hover {
   font-weight: 300;
   font-size: 2.2rem;
   width: 50%;
-  margin: 0 auto 30px auto;  
+  margin: 0 auto 30px auto;
 }
 
 .home-header button {
@@ -471,7 +511,7 @@ nav button:hover, .home-header button:hover {
 }
 
 .devices img {
-  width: 50%;
+  width: 70%;
   margin: 10% auto 0 auto;
   display: block;
 }
@@ -516,7 +556,7 @@ footer {
   align-items: center;
   text-align: center;
   padding: 60px 0;
-  background-image: url(../img/footer-circle.png);
+  background-image: url(/../img/footer-circle.png);
   background-position: center;
   background-size: cover;
   background-position-y: 0;

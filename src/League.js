@@ -55,7 +55,7 @@ class League extends Component {
                   </div>
 
                   <div className="row">
-                    <div className="game-league"> 
+                    <div className="game-league">
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -67,7 +67,7 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>202</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                       <div className="row">
                           <div className="col-sm-12 more-scores">
@@ -80,12 +80,12 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>180</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game-league"> 
+                    <div className="game-league">
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -97,7 +97,7 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>202</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                       <div className="row">
                           <div className="col-sm-12 more-scores">
@@ -110,12 +110,12 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>180</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game-league"> 
+                    <div className="game-league">
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -127,7 +127,7 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>202</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                       <div className="row">
                           <div className="col-sm-12 more-scores">
@@ -140,12 +140,12 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>180</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game-league"> 
+                    <div className="game-league">
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -157,7 +157,7 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>202</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                       <div className="row">
                           <div className="col-sm-12 more-scores">
@@ -170,12 +170,12 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>180</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game-league"> 
+                    <div className="game-league">
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -187,7 +187,7 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>202</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                       <div className="row">
                           <div className="col-sm-12 more-scores">
@@ -200,12 +200,12 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>180</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="game-league"> 
+                    <div className="game-league">
                       <div className="row">
                           <div className="col-sm-12 more-scores">
                             <div className="col-xs-2 np-right">
@@ -217,7 +217,7 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>202</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                       <div className="row">
                           <div className="col-sm-12 more-scores">
@@ -230,7 +230,7 @@ class League extends Component {
                             <div className="col-xs-2">
                               <div className="score-total"><p>180</p></div>
                             </div>
-                          </div>  
+                          </div>
                       </div>
                     </div>
                   </div>
@@ -286,7 +286,7 @@ class League extends Component {
                       <tr>
                         <td>12</td><td>Team Name here</td><td>10-1-1</td><td>210</td><td>179</td>
                       </tr>
-                    </tbody>  
+                    </tbody>
                   </table>
                   <div className="row league-title-bordered">
                     <div className="league-title-button-overview">
@@ -323,7 +323,7 @@ class League extends Component {
                       <tr>
                         <td>5</td><td>Team Name here</td><td>W</td><td>189-180</td>
                       </tr>
-                    </tbody>  
+                    </tbody>
                   </table>
                 </div>
               </div>
@@ -344,9 +344,9 @@ class League extends Component {
                         </button>
                       </div>
                     </div>
-                  </div>            
+                  </div>
                 </div>
-              </div> 
+              </div>
               <div className="row">
                 <div className="col-xs-12 message-board">
                   <div className="row message-board-text">
@@ -410,13 +410,13 @@ class League extends Component {
                     </div>
                   </div>
                 </div>
-              </div>  
+              </div>
             </div>
           </section>
 
 
 
-          
+
 
         </div>
     );

@@ -101,14 +101,14 @@ class Players extends Component {
               </div>
             </div>
           </div>
-          
+
         </section>
 
         <section className="score-breakdown">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                
+
                 <table className="matchup-roster players-list players-page">
                   <tbody>
                     <tr>
@@ -227,13 +227,13 @@ class Players extends Component {
               </div>
 
             </div>
-            
+
           </div>
         </section>
 
 
 
-        
+
 
       </div>
     );
